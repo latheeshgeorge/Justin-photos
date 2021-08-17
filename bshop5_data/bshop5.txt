@@ -1,0 +1,10 @@
+http://dbbshop5.net:8085/
+
+http://demobshop5.net:8085/
+
+./DOCKER1.sh
+
+
+  sudo docker start bshop5
+    sudo docker exec -it bshop5 /bin/bash -c "service apache2 restart; service mysql start"
+
